@@ -14,7 +14,7 @@ def start(update, context):
 
 
 def help(update, context):
-    update.message.reply_text('Help!')
+    update.message.reply_text('This bot replies with the same message you send :)')
 
 
 def echo(update, context):
