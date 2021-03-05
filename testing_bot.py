@@ -1,7 +1,7 @@
 import logging
 import datetime
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
-from telegram import User, ChatMember
+import config
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     level=logging.INFO)
@@ -28,7 +28,7 @@ def error(update, context):
     logger.warning('Update "%s" caused error "%s"', update, context.error)
 
 def main():
-    updater = Updater("1529887081:AAE-8pzTdtFQHHa8o9G2U-haHBu8bXTR8NA", use_context=True)
+    updater = Updater(config.token, use_context=True)
     dp = updater.dispatcher
     dp.add_handler(CommandHandler("start", start))
     dp.add_handler(CommandHandler("help", help))
