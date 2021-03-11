@@ -1,7 +1,7 @@
 import smtplib, ssl
 
-print("Note: For sending email you must have less secure app access enabled in your gmail account security settings.
-    !Still working on to make this script work with good api instead")
+print("Note: For sending email you must have less secure app access enabled in your gmail account security settings.")
+print("!Still working on to make this script work with good api instead.")
 port = 465  # For SSL
 smtp_server = "smtp.gmail.com"
 sender_email = input("Enter your address    ")  # Enter your address
