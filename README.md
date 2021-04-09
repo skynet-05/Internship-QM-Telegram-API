@@ -43,3 +43,7 @@
 7. To print all data in the collection: `db.<NAME OF THE COLLECTION>.find().pretty()` (Note: do not include '<' '>').
 8. Now all data stored in the collection is printed and can be viewed.
 9. More MongoDB functionality can be found here -> https://docs.mongodb.com/manual/
+
+# Issues:
+
+If any issues, it can be addressed here -> https://github.com/skynet-05/Internship-QM-Telegram-API/issues
