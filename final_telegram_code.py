@@ -7,9 +7,9 @@ import pymongo
 
 mc=pymongo.MongoClient("mongodb://127.0.0.1:27017/")
 
-tgdb=mc["telemetrixdb"]
+tgdb=mc["GIVE A NAME FOR YOUR DATABASE"]
 
-tgcol=tgdb["rohitsmessages"]
+tgcol=tgdb["GIVE A NAME FOR THE COLLECTIONS"]
 
 URL = "https://api.telegram.org/bot{}/".format(config.token)
 
