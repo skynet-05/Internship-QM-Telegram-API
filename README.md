@@ -37,7 +37,7 @@
 1. Open a new terminal
 2. Type `mongo` and press enter.
 3. To list all DataBases created: `show dbs`.
-4. Now you should be able to see the database name you had give in `final_telegram_code.py` file.
+4. Now you should be able to see the database name you had given in `final_telegram_code.py` file.
 5. To access the database: `use <NAME OF YOUR DATABASE>` (Note: do not include '<' '>').
 6. To list all collections in the database: `show collections`.
 7. To print all data in the collection: `db.<NAME OF THE COLLECTION>.find().pretty()` (Note: do not include '<' '>').
