@@ -8,6 +8,7 @@
 4. Now, Set a unique Username(The username should end with 'bot'. For example: 'Tetris_bot' or 'tetrisbot').
 5. Now the bot has been created and the bot link is generated. This link can be used to access and chat with the bot.
 6. With this link, the Bot Token gets generated. (Note: Keep your token secure and store it safely, it can be used by anyone to control the bot).
+7. More on Telegram-Bot-API: `https://core.telegram.org/api`
 
 # Installing necessary dependencies:
 
