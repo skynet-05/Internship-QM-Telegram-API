@@ -1,4 +1,4 @@
-# Internship-QM-Telegram-API
+# Telegram-API
 
 # Creating BOT in Telegram App:
 
